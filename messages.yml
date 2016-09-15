@@ -3,18 +3,18 @@ history_time_format: yyyy-MM-dd
 banned_message_base: |
   &cYou are banned from this server!&f
 
-  Banned on: $bannedFrom
-  Banned by: $displayName
-  Reason: $reason&f
+  &cBanned on: &f$bannedFrom
+  &cBanned by: &f$displayName
+  &cReason: &f$reason
 banned_message: |-
   $base
-  Expires in: $banTimeLeft
+  &cExpires in: &f$banTimeLeft
   $appealMessage
 banned_message_permanent: |-
   $base
-  You are permanently banned!
+  &cYou are permanently banned!
   $appealMessage
-banned_message_appeal_message: 'Appeal at: &nhttp://example.com'
+banned_message_appeal_message: '&cAppeal at: &fhttp://example.com'
 banned_message_geoip_blacklist: |-
   &cYou are banned from this server!&f
 
